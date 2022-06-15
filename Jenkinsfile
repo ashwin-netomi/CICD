@@ -5,11 +5,11 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Testing in Progress....'
-                npx run test:e2e
+                npm run test:e2e
                 echo 'Testing Completed.'
-                npx run semantic-release
+                npm run semantic-release
                 echo 'Release completed.'
-                npx run build
+                npm run build
                 echo 'Build completed.'
             }
         }
