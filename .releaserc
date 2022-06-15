@@ -1,5 +1,5 @@
 {
-  "branches": ["master", "main"],
+  "branches": ["main"],
   repositoryUrl : "https://github.com/ashwin-netomi/CICD",
   plugins: [
       "@semantic-release/commit-analyzer",
