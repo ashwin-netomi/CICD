@@ -2,14 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Run semantic-release') {
             steps {
-                echo 'Testing in Progress....'
-                npm run test:e2e
-                echo 'Testing Completed.'
+                echo 'npm run semantic-release....'
                 npm run semantic-release
-                echo 'Release completed.'
-                npm run build
                 echo 'Build completed.'
             }
         }
