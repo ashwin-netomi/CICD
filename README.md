@@ -51,7 +51,7 @@ npm run lint
 ### Run docker 
 ```
 docker run -d -p8080:8080 jenkins/jenkins
-docker ps
+docker ps 
 docker exec -it 08be58d4be84 bash
 cat /var/jenkins_home/secrets/initialAdminPassword
 ```
