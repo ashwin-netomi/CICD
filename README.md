@@ -64,7 +64,6 @@ npm i -D semantic-release @semantic-release/{git,commit-analyzer,release-notes-g
 npm i -D cz-conventional-changelog
 
 npm i -D commitizen 
-
 commitizen init cz-conventional-changelog --save-dev --save-exact
 
 ```
