@@ -3,6 +3,33 @@
 
 ### Bug Fixes
 
+* **jenkins:** jenkisn test ([8527fac](https://github.com/ashwin-netomi/CICD/commit/8527facc7cf3a6df21315258c18e52ec8a9d464f))
+* **package.json:** teestig ([d00c1b8](https://github.com/ashwin-netomi/CICD/commit/d00c1b843260128a9dafff05f90db421e09f72a2))
+* **packages:** updated ([348d4ea](https://github.com/ashwin-netomi/CICD/commit/348d4ea5a9ce5544c35ed8a8f33398e53727eadb))
+* **readme.md:** spell check ([3670627](https://github.com/ashwin-netomi/CICD/commit/367062719dd49eac68f19b8baf4efcba686148a3))
+* **readme:** update reme ([4576ea7](https://github.com/ashwin-netomi/CICD/commit/4576ea7cdf3de7530d134452b7f250a92c53fbc6))
+* **test:** test ([6471fac](https://github.com/ashwin-netomi/CICD/commit/6471facd10ef99aa03466fca55610acb12fbd1ec))
+
+
+### Features
+
+* **build:** added step in jenkins ([12a6dcd](https://github.com/ashwin-netomi/CICD/commit/12a6dcdc05e63236bc68a6f3aeb1c924a6611caa))
+* **hellow.world:** test ([7c7f046](https://github.com/ashwin-netomi/CICD/commit/7c7f0464cfb9124dda22f51c10bf92cab2ea5e63))
+* **read.me:** testing with readme ([6f5f31b](https://github.com/ashwin-netomi/CICD/commit/6f5f31bb1a0fa991098519882721c896b1741fde))
+* **test:** test ([217292b](https://github.com/ashwin-netomi/CICD/commit/217292b7a5efd8b3e4168d3c8ea8fc1e7babbb41))
+
+
+### BREAKING CHANGES
+
+* **hellow.world:** It will break build
+* **readme.md:** it will break
+* **build:** Build might break
+
+# [2.0.0](https://github.com/ashwin-netomi/CICD/compare/v1.0.1...v2.0.0) (2022-06-16)
+
+
+### Bug Fixes
+
 * **package.json:** teestig ([d00c1b8](https://github.com/ashwin-netomi/CICD/commit/d00c1b843260128a9dafff05f90db421e09f72a2))
 * **packages:** updated ([348d4ea](https://github.com/ashwin-netomi/CICD/commit/348d4ea5a9ce5544c35ed8a8f33398e53727eadb))
 * **readme.md:** spell check ([3670627](https://github.com/ashwin-netomi/CICD/commit/367062719dd49eac68f19b8baf4efcba686148a3))
