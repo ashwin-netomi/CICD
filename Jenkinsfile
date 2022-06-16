@@ -5,7 +5,12 @@ pipeline {
         stage('Run semantic-release') {
             steps {
                 echo 'npm run semantic-release....'
-                npm -v
+                echo $WORKSPACE
+                echo 'start'
+                 sh """ #/bin/bash
+                            npm -v
+                            
+                        """
                 echo 'Build completed.'
             }
         }
