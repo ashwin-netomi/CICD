@@ -53,5 +53,18 @@ npm run lint
 docker run -d -p8080:8080 jenkins/jenkins
 docker ps 
 docker exec -it 08be58d4be84 bash
+
 cat /var/jenkins_home/secrets/initialAdminPassword
+```
+
+###
+```
+npm i -D semantic-release @semantic-release/{git,commit-analyzer,release-notes-generator,npm,changelog}
+
+npm i -D cz-conventional-changelog
+
+npm i -D commitizen 
+
+commitizen init cz-conventional-changelog --save-dev --save-exact
+
 ```
