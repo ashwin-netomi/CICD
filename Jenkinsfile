@@ -6,6 +6,7 @@ pipeline {
       steps {
         sh """
           npm --version
+          npm i
           npm run build
         """
       }
